@@ -1,7 +1,6 @@
 ---
 label: project
 hide_body: false
-display_field: title
 fields:
 - name: slug
   label: Slug
@@ -30,13 +29,6 @@ fields:
 - type: textarea
   name: brief
   label: Brief
-  config:
-    wysiwyg: true
-    schema:
-      format: markdown
-- type: textarea
-  name: body
-  label: Body
   config:
     wysiwyg: true
     schema:
