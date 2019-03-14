@@ -34,3 +34,10 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
+- type: textarea
+  name: body
+  label: Body
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
