@@ -1,7 +1,13 @@
 ---
 label: project
 hide_body: false
+display_field: title
 fields:
+- name: slug
+  label: Slug
+  type: text
+  hidden: false
+  default: ''
 - type: text
   name: title
   label: Title
@@ -21,8 +27,10 @@ fields:
   type: tag_list
   hidden: false
   default: []
-- name: slug
-  label: Slug
-  type: text
-  hidden: false
-  default: ''
+- type: textarea
+  name: brief
+  label: Brief
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
